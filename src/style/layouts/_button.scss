@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    background: $primaryColor;
+    color: $white;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all .3s linear;
+
+    &:hover {
+        transition: all .3s linear;
+        background: $darkPrimaryColor;
+        color: $white;
+    }
+}

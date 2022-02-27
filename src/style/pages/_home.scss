@@ -1,0 +1,29 @@
+.home{
+    background: url(https://res.cloudinary.com/dvcyhn0lj/image/upload/v1645890693/tecnodev/home/pexels-photo-1036808_je5ayg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    .content{
+        width: 60rem;
+        h3{
+            @include titleText(6rem);
+        }
+        p{
+            @include graphText(2rem);
+        }
+    }
+@include telefono {
+    .content{
+        width: auto;
+        h3{
+            @include titleText(4rem);
+        }
+        p{
+            @include graphText(1.7rem);
+        }
+    }
+}
+}
